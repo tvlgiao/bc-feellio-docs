@@ -1129,6 +1129,30 @@ _**WARNING: EDIT OTHER FILES WILL PREVENT UPGRADING THE THEME IN THE FUTURE!**_
 
 --- 
 
+## -> Order Online Button
+
+![header](img/homepage-header-section-1.png)
+
+---
+
+* **HTML Content:**
+
+```html
+{{#partial 'feellio-cuisine-navpages-extra-links'}}
+  <li class="navPages-item">
+      <a class="navPages-action navPages-action--button-primary" href="/contact-us/">Order Online</a>
+  </li>
+{{/partial}}
+```
+
+---
+
+* You can change content of this section by edit the file `templates/coupon-custom.html`.
+
+![footer](img/how-to-overwrite-a-section-content.png)
+
+---
+
 ## FOOTERS
 
 ## -> Variations
@@ -1225,12 +1249,6 @@ Configure the footer in **Theme Editor** > **Footer** section.
 </section>
 {{/partial}}
 ```
-<!-- Or use button below to generate HTML code with your custom content: -->
-
-<!-- Button trigger modal -->
-<!-- <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#lightbulbs_banner_1">
-  Launch Banner Code Generator
-</button> -->
 
 ---
 
@@ -1443,6 +1461,8 @@ Configure New Products, Featured Products, Bestselling Products showing on the h
 ![homepage-section](img/homepage-style-1-section-3.png)
 
 ---
+
+**This section automatically displays the newest blog posts. If you want to customize this block, you can copy the HTML below into `templates/coupon-custom.html` and freely edit it.**
 
 * **HTML Content:**
 
@@ -1668,6 +1688,8 @@ Configure New Products, Featured Products, Bestselling Products showing on the h
 
 ## -> Section Cuisine Reservation
 
+**Note: There must be a contact page with link `/contact-us/` in order to display this contact form. If you don't have a contact us page, or your contact us page's link is different, please create another contact us page with the same link `/contact-us/` exactly.**
+
 ![homepage-section](img/homepage-style-1-section-7.png)
 
 ---
@@ -1704,6 +1726,12 @@ Configure New Products, Featured Products, Bestselling Products showing on the h
 ---
 
 ## -> Section Cuisine Instagram
+
+You need to set a Instagram access token key in **Theme Editor** > **Homepage**
+
+![homepage-section](img/homepage-instagram-setting.png)
+
+Use this tool to generate token: `http://bit.ly/2ACD7uM`
 
 ![homepage-section](img/homepage-style-1-section-8.png)
 
@@ -1759,6 +1787,10 @@ Configure New Products, Featured Products, Bestselling Products showing on the h
 ![homepage-section](img/homepage-style-1-section-9.png)
 
 ---
+
+You can change the location by change the lat and lng at line  `lat: -34.397, lng: 150.644`.
+
+Use this tool to find lat and lng of a location: `https://www.latlong.net/`
 
 * **HTML Content:**
 
