@@ -97,6 +97,8 @@
         
             <li><a class="toctree-l3" href="#-top-banner">-&gt; Top Banner</a></li>
         
+            <li><a class="toctree-l3" href="#-order-online-button">-&gt; Order Online Button</a></li>
+        
             <li><a class="toctree-l3" href="#footers">FOOTERS</a></li>
         
             <li><a class="toctree-l3" href="#-variations_1">-&gt; Variations</a></li>
@@ -1293,6 +1295,25 @@ For other sections, edit the file <code>templates/chiara-custom.html</code>.</p>
 <p><img alt="top banner" src="img/top-banner.png" /></p>
 <p>-You can add/edit/remove the top banner content on the homepage, category pages, product pages in <strong>Marketing</strong> &gt; <strong>Banner Manager</strong>.</p>
 <hr />
+<h2 id="-order-online-button">-&gt; Order Online Button<a class="headerlink" href="#-order-online-button" title="Permanent link">&para;</a></h2>
+<p><img alt="header" src="img/homepage-header-section-1.png" /></p>
+<hr />
+<ul>
+<li><strong>HTML Content:</strong></li>
+</ul>
+<pre><code class="html">{{#partial 'feellio-cuisine-navpages-extra-links'}}
+  &lt;li class=&quot;navPages-item&quot;&gt;
+      &lt;a class=&quot;navPages-action navPages-action--button-primary&quot; href=&quot;/contact-us/&quot;&gt;Order Online&lt;/a&gt;
+  &lt;/li&gt;
+{{/partial}}
+</code></pre>
+
+<hr />
+<ul>
+<li>You can change content of this section by edit the file <code>templates/coupon-custom.html</code>.</li>
+</ul>
+<p><img alt="footer" src="img/how-to-overwrite-a-section-content.png" /></p>
+<hr />
 <h2 id="footers">FOOTERS<a class="headerlink" href="#footers" title="Permanent link">&para;</a></h2>
 <h2 id="-variations_1">-&gt; Variations<a class="headerlink" href="#-variations_1" title="Permanent link">&para;</a></h2>
 <p>-Cuisine:</p>
@@ -1378,14 +1399,6 @@ For other sections, edit the file <code>templates/chiara-custom.html</code>.</p>
 &lt;/section&gt;
 {{/partial}}
 </code></pre>
-
-<!-- Or use button below to generate HTML code with your custom content: -->
-
-<!-- Button trigger modal -->
-
-<!-- <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#lightbulbs_banner_1">
-  Launch Banner Code Generator
-</button> -->
 
 <hr />
 <ul>
@@ -1567,6 +1580,7 @@ For other sections, edit the file <code>templates/chiara-custom.html</code>.</p>
 <h2 id="-section-cuisine-blog">-&gt; Section Cuisine Blog<a class="headerlink" href="#-section-cuisine-blog" title="Permanent link">&para;</a></h2>
 <p><img alt="homepage-section" src="img/homepage-style-1-section-3.png" /></p>
 <hr />
+<p><strong>This section automatically displays the newest blog posts. If you want to customize this block, you can copy the HTML below into <code>templates/coupon-custom.html</code> and freely edit it.</strong></p>
 <ul>
 <li><strong>HTML Content:</strong></li>
 </ul>
@@ -1773,6 +1787,7 @@ For other sections, edit the file <code>templates/chiara-custom.html</code>.</p>
 <p><img alt="homepage-section" src="img/how-to-overwrite-a-section-content.png" /></p>
 <hr />
 <h2 id="-section-cuisine-reservation">-&gt; Section Cuisine Reservation<a class="headerlink" href="#-section-cuisine-reservation" title="Permanent link">&para;</a></h2>
+<p><strong>Note: There must be a contact page with link <code>/contact-us/</code> in order to display this contact form. If you don't have a contact us page, or your contact us page's link is different, please create another contact us page with the same link <code>/contact-us/</code> exactly.</strong></p>
 <p><img alt="homepage-section" src="img/homepage-style-1-section-7.png" /></p>
 <hr />
 <ul>
@@ -1805,6 +1820,9 @@ For other sections, edit the file <code>templates/chiara-custom.html</code>.</p>
 <p><img alt="homepage-section" src="img/how-to-overwrite-a-section-content.png" /></p>
 <hr />
 <h2 id="-section-cuisine-instagram">-&gt; Section Cuisine Instagram<a class="headerlink" href="#-section-cuisine-instagram" title="Permanent link">&para;</a></h2>
+<p>You need to set a Instagram access token key in <strong>Theme Editor</strong> &gt; <strong>Homepage</strong></p>
+<p><img alt="homepage-section" src="img/homepage-instagram-setting.png" /></p>
+<p>Use this tool to generate token: <code>http://bit.ly/2ACD7uM</code></p>
 <p><img alt="homepage-section" src="img/homepage-style-1-section-8.png" /></p>
 <hr />
 <ul>
@@ -1853,6 +1871,8 @@ For other sections, edit the file <code>templates/chiara-custom.html</code>.</p>
 <h2 id="-section-cuisine-gmap">-&gt; Section Cuisine GMAP<a class="headerlink" href="#-section-cuisine-gmap" title="Permanent link">&para;</a></h2>
 <p><img alt="homepage-section" src="img/homepage-style-1-section-9.png" /></p>
 <hr />
+<p>You can change the location by change the lat and lng at line  <code>lat: -34.397, lng: 150.644</code>.</p>
+<p>Use this tool to find lat and lng of a location: <code>https://www.latlong.net/</code></p>
 <ul>
 <li><strong>HTML Content:</strong></li>
 </ul>
