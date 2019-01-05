@@ -2325,6 +2325,477 @@ Use this tool to find lat and lng of a location: `https://www.latlong.net/`
 
 ---
 
+## -> Section Bakery Banner Three
+
+![homepage-section](img/section-bakery-banner-three.png)
+
+---
+
+* **HTML Content:**
+
+```html
+{{#block "feellio-bakery-banner-three"}}
+<div class="chiara-section feellio-section--bakeryBannerThree">
+    <div class="container">
+        <div class="feellioBakeryBannerThree">
+            <div class="feellioBakeryBannerThree-left">
+                <div class="feellioBakeryBannerThree-banner">
+                    <div class="feellioBakeryBannerThree-img"><a href="#"><img class="lazyload" src="{{cdn 'assets/img/loading.svg'}}" data-src="/product_images/uploaded_images/feelio-bakery-banner-three-01.jpg" alt="feelio-bakery-banner-three-01.jpg" /></a></div>
+                    <div class="feellioBakeryBannerThree-body wow fadeIn tm-inview" data-wow-delay="200ms" data-movement="-30">
+                        <h3 class="feellioBakeryBannerThree-title">Cookies</h3>
+                        <ul class="feellioBakeryBannerThree-list">
+                            <li><a href="#" class="feellioBakeryBannerThree-action">Macaroon</a></li>
+                            <li><a href="#" class="feellioBakeryBannerThree-action">Jumble</a></li>
+                            <li><a href="#" class="feellioBakeryBannerThree-action">Ladyfinger</a></li>
+                            <li><a href="#" class="feellioBakeryBannerThree-action">Chocolate chip</a></li>
+                            <li><a href="#" class="feellioBakeryBannerThree-action">Cracker</a></li>
+                            <li><a href="#" class="feellioBakeryBannerThree-action">Thumbprint cookie</a></li>
+                        </ul>    
+                    </div>
+                </div>
+                <div class="feellioBakeryBannerThree-banner">
+                    <div class="feellioBakeryBannerThree-img"><a href="#"><img class="lazyload" src="{{cdn 'assets/img/loading.svg'}}" data-src="/product_images/uploaded_images/feelio-bakery-banner-three-02.jpg" alt="feelio-bakery-banner-three-02.jpg" /></a></div>
+                    <div class="feellioBakeryBannerThree-body wow fadeIn tm-inview" data-wow-delay="200ms" data-movement="-30">
+                        <h3 class="feellioBakeryBannerThree-title">Cake</h3>
+                        <ul class="feellioBakeryBannerThree-list">
+                            <li><a href="#" class="feellioBakeryBannerThree-action">Cupcake</a></li>
+                            <li><a href="#" class="feellioBakeryBannerThree-action">Angel food</a></li>
+                            <li><a href="#" class="feellioBakeryBannerThree-action">Muffins</a></li>
+                            <li><a href="#" class="feellioBakeryBannerThree-action">Devil food</a></li>
+                            <li><a href="#" class="feellioBakeryBannerThree-action">Chiffon</a></li>
+                            <li><a href="#" class="feellioBakeryBannerThree-action">Pound cake</a></li>
+                        </ul>    
+                    </div>
+                </div>
+            </div>
+            <div class="feellioBakeryBannerThree-right">
+                <div class="feellioBakeryBannerThree-banner">
+                    <div class="feellioBakeryBannerThree-img"><a href="#"><img class="lazyload" src="{{cdn 'assets/img/loading.svg'}}" data-src="/product_images/uploaded_images/feelio-bakery-banner-three-03.jpg" alt="feelio-bakery-banner-three-03.jpg" /></a></div>
+                    <div class="feellioBakeryBannerThree-body wow fadeIn tm-inview" data-wow-delay="200ms" data-movement="-30">
+                        <h3 class="feellioBakeryBannerThree-title">Bread</h3>
+                        <ul class="feellioBakeryBannerThree-list">
+                            <li><a href="#" class="feellioBakeryBannerThree-action">Challah</a></li>
+                            <li><a href="#" class="feellioBakeryBannerThree-action">Pretzel</a></li>
+                            <li><a href="#" class="feellioBakeryBannerThree-action">Swiss roll</a></li>
+                            <li><a href="#" class="feellioBakeryBannerThree-action">French bread</a></li>
+                            <li><a href="#" class="feellioBakeryBannerThree-action">Quick bread</a></li>
+                            <li><a href="#" class="feellioBakeryBannerThree-action">Croissant</a></li>
+                            <li><a href="#" class="feellioBakeryBannerThree-action">Loaf Bread</a></li>
+                            <li><a href="#" class="feellioBakeryBannerThree-action">Sandwich</a></li>
+                            <li><a href="#" class="feellioBakeryBannerThree-action">Wheat bread</a></li>
+                            <li><a href="#" class="feellioBakeryBannerThree-action">Bread stick</a></li>
+                        </ul>    
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{{/block}}
+```
+
+---
+
+* You can change content of this section by edit the file `templates/feellio-custom.html`.
+
+![homepage-section](img/how-to-overwrite-a-section-content.png)
+
+---
+
+## -> Section Bakery Banner Four
+
+![homepage-section](img/section-bakery-banner-four.png)
+
+---
+
+* **HTML Content:**
+
+```html
+{{#block "feellio-bakery-banner-four"}}
+<div class="chiara-section feellio-section--bakeryBannerFour">
+    <div class="feellioBakery-section-heading wow fadeIn">
+        <div class="feellioBakery-section-heading-img"><img class="lazyload" src="{{cdn 'assets/img/loading.svg'}}" data-src="/product_images/uploaded_images/feelio-bakery-banner-four-heading.jpg" alt="feelio-bakery-banner-four-heading.jpg" /></div>
+        <h3 class="feellioBakery-section-heading-main page-heading">MAIN SERVICES WE PROVIDE</h3>
+        <p class="feellioBakery-section-heading-sub">discount every Monday</p>
+    </div>
+    <div class="container">
+        <div class="feellioBakeryBannerFour">
+            <div class="feellioBakeryBannerFour-banner">
+                <div class="feellioBakeryBannerFour-img"><a href="#"><img class="lazyload" src="{{cdn 'assets/img/loading.svg'}}" data-src="/product_images/uploaded_images/feelio-bakery-banner-four-01.jpg" alt="feelio-bakery-banner-four-01.jpg" /></a></div>
+                <div class="feellioBakeryBannerFour-body wow fadeIn" data-wow-delay="200ms">
+                    <h3 class="feellioBakeryBannerFour-title">SALE BAKERY</h3>
+                    <p class="feellioBakeryBannerFour-desc">Generally speaking, the wetter your dough the bigger the holes will be.</p>
+                </div>
+            </div>
+            <div class="feellioBakeryBannerFour-banner">
+                <div class="feellioBakeryBannerFour-img"><a href="#"><img class="lazyload" src="{{cdn 'assets/img/loading.svg'}}" data-src="/product_images/uploaded_images/feelio-bakery-banner-four-02.jpg" alt="feelio-bakery-banner-four-02.jpg" /></a></div>
+                <div class="feellioBakeryBannerFour-body wow fadeIn" data-wow-delay="200ms">
+                    <h3 class="feellioBakeryBannerFour-title">WEDDING CAKE</h3>
+                    <p class="feellioBakeryBannerFour-desc">Many people want to know how to make their bread more sour. </p>
+                </div>
+            </div>
+            <div class="feellioBakeryBannerFour-banner">
+                <div class="feellioBakeryBannerFour-img"><a href="#"><img class="lazyload" src="{{cdn 'assets/img/loading.svg'}}" data-src="/product_images/uploaded_images/feelio-bakery-banner-four-03.jpg" alt="feelio-bakery-banner-four-03.jpg" /></a></div>
+                <div class="feellioBakeryBannerFour-body wow fadeIn" data-wow-delay="200ms">
+                    <h3 class="feellioBakeryBannerFour-title">PROVIDE MATERIALS</h3>
+                    <p class="feellioBakeryBannerFour-desc">I keep mine pretty thick. It has to be spooned out of the jar.</p>
+                </div>
+            </div>
+            <div class="feellioBakeryBannerFour-banner">
+                    <div class="feellioBakeryBannerFour-img"><a href="#"><img class="lazyload" src="{{cdn 'assets/img/loading.svg'}}" data-src="/product_images/uploaded_images/feelio-bakery-banner-four-04.jpg" alt="feelio-bakery-banner-four-04.jpg" /></a></div>
+                    <div class="feellioBakeryBannerFour-body wow fadeIn" data-wow-delay="200ms">
+                        <h3 class="feellioBakeryBannerFour-title">TRAINING BAKER</h3>
+                        <p class="feellioBakeryBannerFour-desc">Some starters are very liquidy and can be poured out of their containers.</p>
+                    </div>
+                </div>
+        </div>
+    </div>
+</div>
+{{/block}}
+```
+
+---
+
+* You can change content of this section by edit the file `templates/feellio-custom.html`.
+
+![homepage-section](img/how-to-overwrite-a-section-content.png)
+
+---
+
+## -> Section Bakery Banner One
+
+![homepage-section](img/section-bakery-banner-one.png)
+
+---
+
+* **HTML Content:**
+
+```html
+{{#block "feellio-bakery-banner-one"}}
+<div class="chiara-section feellio-section--bakeryBannerOne">
+    <div class="feellioBakeryBannerOne">
+        <div class="feellioBakeryBannerOne-banner">
+            <div class="feellioBakeryBannerOne-img"><a href="#"><img class="lazyload" src="{{cdn 'assets/img/loading.svg'}}" data-src="/product_images/uploaded_images/feelio-bakery-banner-one-01.jpg" alt="feelio-bakery-banner-one-01.jpg" /></a></div>
+            <div class="feellioBakeryBannerOne-img"><a href="#"><img class="lazyload" src="{{cdn 'assets/img/loading.svg'}}" data-src="/product_images/uploaded_images/feelio-bakery-banner-one-02.jpg" alt="feelio-bakery-banner-one-02.jpg" /></a></div>
+            <a href="#" class="feellioBakeryBannerOne-action">Make order now</a>
+        </div>
+    </div>
+</div>
+{{/block}}
+```
+
+---
+
+* You can change content of this section by edit the file `templates/feellio-custom.html`.
+
+![homepage-section](img/how-to-overwrite-a-section-content.png)
+
+---
+
+## -> Section Bakery Awesome Products
+
+![homepage-section](img/section-bakery-awesome-products.png)
+
+---
+
+* **HTML Content:**
+
+```html
+{{#block "feellio-bakery-awesome-products"}}
+<div class="chiara-section feellio-section--bakeryAwesome-Products">
+    <div class="container">
+        <div class="feellioBakeryAwesomeProducts" data-products-by-category-sorting-tabs>
+            <div class="feellioBakery-section-heading wow fadeIn">
+                <h3 class="feellioBakery-section-heading-main page-heading">AWESOME OUR PRODUCTS</h3>
+            </div>
+            <ul class="tabs" data-tab>
+                <li class="tab is-active">
+                    <a class="tab-title" href="#tab-productsByCategory-new-{{index}}">New arrival</a>
+                </li>
+                <li class="tab">
+                    <a class="tab-title" href="#tab-productsByCategory-top-{{index}}">Best seller</a>
+                </li>
+                <li class="tab">
+                    <a class="tab-title" href="#tab-productsByCategory-featured-{{index}}">Featured</a>
+                </li>
+                <li class="tab">
+                    <a class="tab-title" href="#tab-productsByCategory-rating-{{index}}">Top Reviewed</a>
+                </li>
+            </ul>
+            <div class="tabs-contents">
+                <div class="tab-content is-active" id="tab-productsByCategory-new-{{index}}" data-url="{{url}}?sort=newest&amp;limit={{limit}}">
+                    <img class="img-loading" src="{{cdn 'img/loading.svg'}}" alt="loading" />
+                </div>
+                <div class="tab-content" id="tab-productsByCategory-top-{{index}}" data-url="{{url}}?sort=bestselling&amp;limit={{limit}}">
+                    <img class="img-loading" src="{{cdn 'img/loading.svg'}}" alt="loading" />
+                </div>
+                <div class="tab-content" id="tab-productsByCategory-featured-{{index}}" data-url="{{url}}?sort=featured&amp;limit={{limit}}">
+                    <img class="img-loading" src="{{cdn 'img/loading.svg'}}" alt="loading" />
+                </div>
+                <div class="tab-content" id="tab-productsByCategory-rating-{{index}}" data-url="{{url}}?sort=avgcustomerreview&amp;limit={{limit}}">
+                    <img class="img-loading" src="{{cdn 'img/loading.svg'}}" alt="loading" />
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{{/block}}
+```
+
+---
+
+* You can change content of this section by edit the file `templates/feellio-custom.html`.
+
+![homepage-section](img/how-to-overwrite-a-section-content.png)
+
+---
+
+## -> Section Bakery Special Boxes
+
+![homepage-section](img/section-bakery-special-boxes.png)
+
+---
+
+* **HTML Content:**
+
+```html
+{{#block "feellio-bakery-special-boxes"}}
+<div class="chiara-section feellio-section--bakerySpecialBoxes">
+    <div class="feellioBakery-section-heading wow fadeIn">
+        <div class="feellioBakery-section-heading-img"><img class="lazyload" src="{{cdn 'assets/img/loading.svg'}}" data-src="/product_images/uploaded_images/feelio-bakery-special-boxes-heading.jpg" alt="feelio-bakery-special-boxes-heading.jpg" /></div>
+        <h3 class="feellioBakery-section-heading-main page-heading">Special boxes</h3>
+        <p class="feellioBakery-section-heading-sub">Selection boxes you want</p>
+        <p class="feellioBakery-section-heading-desc">Our original contribution to the no-knead bread revolution: substitute live sourdough starter for instant yeast to create the ultimate no knead artisan bread loaf.</p>
+    </div>
+    <div class="container">
+        <ul class="feellioBakerySpecialBoxes" data-slick='{
+            "dots": true,
+            "arrows": false,
+            "mobileFirst": true,
+            "slidesToShow": 1,
+            "slidesToScroll": 1,
+            "autoplay": true,
+            "autoplaySpeed": 3000000,
+            "responsive": [
+                {
+                    "breakpoint": 800,
+                    "settings": {
+                        "vertical": true,
+                        "infinite": false
+                    }
+                }
+            ]
+        }'>
+            <li class="feellioBakerySpecialBoxes-item">
+                <div class="feellioBakerySpecialBoxes-product">
+                    <div class="feellioBakerySpecialBoxes-product-img">
+                        <img class="lazyload" src="{{cdn 'assets/img/loading.svg'}}" data-src="/product_images/uploaded_images/section-bakery-special-boxes-01.jpg" alt="section-bakery-special-boxes-01.jpg" />
+                    </div>
+                    <div class="feellioBakerySpecialBoxes-product-content">
+                        <div class="feellioBakerySpecialBoxes-product-subTitle">Breads combo</div>
+                        <h4 class="feellioBakerySpecialBoxes-product-Title">Box of 05 Monthly <br>special</h4> 
+                        <div class="feellioBakerySpecialBoxes-product-price">
+                            <span class="feellioBakerySpecialBoxes-product-price-sale">$37.00</span>
+                            <span class="feellioBakerySpecialBoxes-product-price-main">$29.00</span>
+                        </div>
+                        <ul class="feellioBakerySpecialBoxes-product-desc">
+                            <li>As with any bread recipe, baguette variations abound.</li>
+                            <li>Baguettes are an interesting bread.</li>
+                        </ul>
+                        <dl class="feellioBakerySpecialBoxes-product-info">
+                            <dt>categories:</dt>
+                            <dd>Vegetable/ Package</dd>
+                            <dt>Weight:</dt>
+                            <dd>5.8kg / package</dd>
+                            <dt>Expire date:</dt>
+                            <dd>01/11/2018</dd>
+                        </dl>
+                        <a href="#" class="feellioBakerySpecialBoxes-product-action">Add to cart</a>
+                    </div>
+                </div>
+            </li>
+            <li class="feellioBakerySpecialBoxes-item">
+                <div class="feellioBakerySpecialBoxes-product">
+                    <div class="feellioBakerySpecialBoxes-product-img">
+                        <img class="lazyload" src="{{cdn 'assets/img/loading.svg'}}" data-src="/product_images/uploaded_images/section-bakery-special-boxes-01.jpg" alt="section-bakery-special-boxes-01.jpg" />
+                    </div>
+                    <div class="feellioBakerySpecialBoxes-product-content">
+                        <div class="feellioBakerySpecialBoxes-product-subTitle">Breads combo</div>
+                        <h4 class="feellioBakerySpecialBoxes-product-Title">Box of 05 Monthly <br>special</h4> 
+                        <div class="feellioBakerySpecialBoxes-product-price">
+                            <span class="feellioBakerySpecialBoxes-product-price-sale">$37.00</span>
+                            <span class="feellioBakerySpecialBoxes-product-price-main">$29.00</span>
+                        </div>
+                        <ul class="feellioBakerySpecialBoxes-product-desc">
+                            <li>As with any bread recipe, baguette variations abound.</li>
+                            <li>Baguettes are an interesting bread.</li>
+                        </ul>
+                        <dl class="feellioBakerySpecialBoxes-product-info">
+                            <dt>categories:</dt>
+                            <dd>Vegetable/ Package</dd>
+                            <dt>Weight:</dt>
+                            <dd>5.8kg / package</dd>
+                            <dt>Expire date:</dt>
+                            <dd>01/11/2018</dd>
+                        </dl>
+                        <a href="#" class="feellioBakerySpecialBoxes-product-action">Add to cart</a>
+                    </div>
+                </div>
+            </li>
+            <li class="feellioBakerySpecialBoxes-item">
+                <div class="feellioBakerySpecialBoxes-product">
+                    <div class="feellioBakerySpecialBoxes-product-img">
+                        <img class="lazyload" src="{{cdn 'assets/img/loading.svg'}}" data-src="/product_images/uploaded_images/section-bakery-special-boxes-01.jpg" alt="section-bakery-special-boxes-01.jpg" />
+                    </div>
+                    <div class="feellioBakerySpecialBoxes-product-content">
+                        <div class="feellioBakerySpecialBoxes-product-subTitle">Breads combo</div>
+                        <h4 class="feellioBakerySpecialBoxes-product-Title">Box of 05 Monthly <br>special</h4> 
+                        <div class="feellioBakerySpecialBoxes-product-price">
+                            <span class="feellioBakerySpecialBoxes-product-price-sale">$37.00</span>
+                            <span class="feellioBakerySpecialBoxes-product-price-main">$29.00</span>
+                        </div>
+                        <ul class="feellioBakerySpecialBoxes-product-desc">
+                            <li>As with any bread recipe, baguette variations abound.</li>
+                            <li>Baguettes are an interesting bread.</li>
+                        </ul>
+                        <dl class="feellioBakerySpecialBoxes-product-info">
+                            <dt>categories:</dt>
+                            <dd>Vegetable/ Package</dd>
+                            <dt>Weight:</dt>
+                            <dd>5.8kg / package</dd>
+                            <dt>Expire date:</dt>
+                            <dd>01/11/2018</dd>
+                        </dl>
+                        <a href="#" class="feellioBakerySpecialBoxes-product-action">Add to cart</a>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </div>
+</div>
+{{/block}}
+```
+
+---
+
+* You can change content of this section by edit the file `templates/feellio-custom.html`.
+
+![homepage-section](img/how-to-overwrite-a-section-content.png)
+
+---
+
+## -> Section Bakery Instagram
+
+![homepage-section](img/section-bakery-instagram.png)
+
+---
+
+* **HTML Content:**
+
+```html
+{{#block "feellio-bakery-instagram"}}
+<div class="chiara-section feellio-section--bakeryInstagram">
+    <div class="container">
+        <div class="feellioBakeryInstagram">
+            <div class="feellioBakery-section-heading">
+                    <div class="feellioBakery-section-heading-bg">
+                        <img class="lazyload" src="{{cdn 'assets/img/loading.svg'}}" data-src="/product_images/uploaded_images/section-bakery-instagram-bg.jpg" alt="section-bakery-instagram-bg.jpg" />
+                    </div>
+                    <div class="feellioBakery-section-heading-img"><img class="lazyload" src="{{cdn 'assets/img/loading.svg'}}" data-src="/product_images/uploaded_images/section-bakery-instagram-heading.png" alt="section-bakery-instagram-heading.png" /></div>
+                    <h3 class="feellioBakery-section-heading-main page-heading">our gallery</h3>
+                    <p class="feellioBakery-section-heading-sub">made for you with love</p>
+                    <p class="feellioBakery-section-heading-desc">Our Boiceville location is our original home and our wood-fired brick oven craft bakery.  We offer breakfast, lunch, and brunch 7 days per week. Come visit us.</p>
+                    <div class="feellioBakery-section-heading-action">
+                        <i class="icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg></i>
+                        <div class="feellioBakery-section-heading-action-text">
+                            <p>Follow us on instagram</p> 
+                            <span>@</span><a href="#">breadpro_store</a>
+                        </div>
+                    </div>
+                </div>
+            <div class="feellioBakeryInstagram-content">
+                <!-- <div id="instafeed" data-accessToken="10094437813.1677ed0.f843f6b3588944b794bb6e2deafb00ee" data-limit="12"></div> -->
+                <div id="instafeed">
+                        <div class="feellio-bakery-instafeed-item"><a href="#" target="_blank"><img class="lazyload" src="{{cdn 'assets/img/loading.svg'}}" data-src="/product_images/uploaded_images/fellio-bakery-instagram-01.jpg" alt="fellio-bakery-instagram-01.jpg" /></a></div>
+                        <div class="feellio-bakery-instafeed-item"><a href="#" target="_blank"><img class="lazyload" src="{{cdn 'assets/img/loading.svg'}}" data-src="/product_images/uploaded_images/fellio-bakery-instagram-03.jpg" alt="fellio-bakery-instagram-03.jpg" /></a></div>
+                        <div class="feellio-bakery-instafeed-item g-r-e-2"><a href="#" target="_blank"><img class="lazyload" src="{{cdn 'assets/img/loading.svg'}}" data-src="/product_images/uploaded_images/fellio-bakery-instagram-06.jpg" alt="fellio-bakery-instagram-06.jpg" /></a></div>
+                        <div class="feellio-bakery-instafeed-item"><a href="#" target="_blank"><img class="lazyload" src="{{cdn 'assets/img/loading.svg'}}" data-src="/product_images/uploaded_images/fellio-bakery-instagram-07.jpg" alt="fellio-bakery-instagram-07.jpg" /></a></div>
+                        <div class="feellio-bakery-instafeed-item g-r-e-2"><a href="#" target="_blank"><img class="lazyload" src="{{cdn 'assets/img/loading.svg'}}" data-src="/product_images/uploaded_images/fellio-bakery-instagram-02.jpg" alt="fellio-bakery-instagram-02.jpg" /></a></div>
+                        <div class="feellio-bakery-instafeed-item"><a href="#" target="_blank"><img class="lazyload" src="{{cdn 'assets/img/loading.svg'}}" data-src="/product_images/uploaded_images/fellio-bakery-instagram-04.jpg" alt="fellio-bakery-instagram-04.jpg" /></a></div>
+                        <div class="feellio-bakery-instafeed-item g-r-e-2"><a href="#" target="_blank"><img class="lazyload" src="{{cdn 'assets/img/loading.svg'}}" data-src="/product_images/uploaded_images/fellio-bakery-instagram-08.jpg" alt="fellio-bakery-instagram-08.jpg" /></a></div>
+                        <div class="feellio-bakery-instafeed-item g-c-e-2"><a href="#" target="_blank"><img class="lazyload" src="{{cdn 'assets/img/loading.svg'}}" data-src="/product_images/uploaded_images/fellio-bakery-instagram-05.jpg" alt="fellio-bakery-instagram-05.jpg" /></a></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{{/block}}
+```
+
+---
+
+* You can change content of this section by edit the file `templates/feellio-custom.html`.
+
+![homepage-section](img/how-to-overwrite-a-section-content.png)
+
+---
+
+## -> Section Bakery Blog
+
+![homepage-section](img/section-bakery-blog.png)
+
+---
+
+* **HTML Content:**
+
+```html
+{{#block "feellio-bakery-blog"}}
+<div class="chiara-section feellio-section--bakeryBlog">
+    <div class="feellioBakeryBlog">
+        <div class="feellioBakery-section-heading wow fadeIn">
+            <div class="feellioBakery-section-heading-img"><img class="lazyload" src="{{cdn 'assets/img/loading.svg'}}" data-src="/product_images/uploaded_images/section-bakery-blog-heading.jpg" alt="section-bakery-blog-heading.jpg" /></div>
+            <h3 class="feellioBakery-section-heading-main page-heading">Blog update</h3>
+            <p class="feellioBakery-section-heading-sub">Check our latest blog post</p>
+            <p class="feellioBakery-section-heading-desc">Flour &amp; Water is a book project built in the spirit of internet: chapters are published straight to the web site and then edited based on feedback from readers.</p>
+        </div>
+        <div class="container">
+            <div class="feellioBakeryBlog-blog">
+                <ul class="feellioBakeryBlog-posts">
+                    {{#each blog.recent_posts}}
+                        <li class="feellioBakeryBlog-posts-item">
+                            <div class="feellioBakeryBlog-posts-image">
+                                {{#if thumbnail}}
+                                        <a href="{{url}}">
+                                            <img class="lazyload" data-sizes="auto" src="{{cdn 'img/loading.svg'}}" data-src="{{#if large_image}}{{getImage thumbnail 'blog_post_size'}}{{else}}{{getImage thumbnail 'blog_size'}}{{/if}}" alt="{{thumbnail.alt}}" title="{{thumbnail.alt}}">
+                                        </a>
+                                {{/if}}
+                            </div>
+                            <div class="feellioBakeryBlog-posts-content">
+                                <h4 class="feellioBakeryBlog-post-title">{{title}}</h4>
+                                <div class="feellioBakeryBlog-post-date">{{date_published}}</div>
+                            </div>
+                            <div class="feellioBakeryBlog-post-summary">{{{summary}}}</div>
+                            <div class="feellioBakeryBlog-post-link">
+                                <a class="feellioBakeryBlog-post-action" href="{{url}}">Read more <i class="icon"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 476.213 476.213" xml:space="preserve"> <polygon points="345.606,107.5 324.394,128.713 418.787,223.107 0,223.107 0,253.107 418.787,253.107 324.394,347.5 345.606,368.713 476.213,238.106 "/> </svg></i></a>
+                            </div>
+                        </li>
+                    {{/each}}
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+{{/block}}
+```
+
+---
+
+* You can change content of this section by edit the file `templates/feellio-custom.html`.
+
+![homepage-section](img/how-to-overwrite-a-section-content.png)
+
+---
+
 ## SIDEBAR:
 
 ## -> Banners Widget
