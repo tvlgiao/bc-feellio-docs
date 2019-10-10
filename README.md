@@ -1,2 +1,2 @@
-# bc-feellio-docs
-Documentation for the BigCommerce Theme Feellio by tvlgiao
+# bc-sarahmarket-docs
+Documentation for the BigCommerce Theme SarahMarket by tvlgiao

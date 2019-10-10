@@ -55,3 +55,29 @@ To edit the template files, go to admin page > __Storefront Design__ > __My Them
 
 To activate a theme style, open Theme Editor, find __Styles__ section, click on the theme variation's thumbnail to activate corresponding style.
 
+![Edit theme files](img/chooes-theme-style.png)
+
+
+## Edit source code
+
+### Add your own CSS / SCSS:
+
+- **Option 1:** Edit file `assets/scss/_feellio-custom.scss`
+- **Option 2:** Add custom CSS  in `<style>...</style>` into **Storefront** > **Footer Scripts**.
+
+![Edit theme files](img/edit-custom-css.jpg)
+
+### Add your own Javascript:
+
+- **Option 1:** Add custom JS in `<script>...</script>` into **Storefront** > **Footer Scripts**.
+- **Option 2:** Add custom JS into **Storefront** > **Scripts Manager**.
+
+![Edit theme files](img/custom-theme-js.png)
+
+
+### Edit HTML:
+
+ONLY edit file `templates/feellio-custom.html`
+
+![Edit theme files](img/custom-theme-template.png)
+

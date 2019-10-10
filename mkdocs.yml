@@ -1,11 +1,22 @@
-site_name: "BigCommerce Feellio Theme - User Guide"
-pages:
+site_name: "BigCommerce Theme Feellio - User Guide"
+nav:
 - Home: index.md
-- Install the theme: installation.md
+- Theme Installation: installation.md
 - Quick Start Guide: quickstart.md
-- Customization: customization.md
+- Global Customization: customization.md
+- Header: customization-header.md
+- Underwear Style Customization: customization-underwear.md
+- Furniture Style Customization: customization-furniture.md
+- Flowers Style Customization: customization-flowers.md
+- Fashion Style Customization: customization-fashion.md
+- Shoes Style Customization: customization-shoes.md
+- Pets Style Customization: customization-pets.md
+- Cuisine, Wine, Bakery Style Customization: customization-wine.md
+- Footer: customization-footer.md
+- Update Guide: update.md
 - FAQs: faqs.md
 - Help & Support: support.md
+- Release Notes: changelog.md
 theme: readthedocs
 use_directory_urls: false
 

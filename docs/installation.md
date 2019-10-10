@@ -8,11 +8,9 @@
 
 When a new theme appears, click on the button __Apply Theme__ as showing below:
 
-![Apply Theme](img/apply-theme.png)
+![Apply Theme](img/apply-theme.jpg)
 
-Then choose style __Cuisine__
-
-![Apply Theme](img/select-theme.png)
+Then choose a style you want to use.
 
 Refresh your store's front page you should see the theme installed successfully.
 

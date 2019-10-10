@@ -1,5 +1,0 @@
-
-        <img class="lazyload" src="{{heading_img}}" alt="{{header_img_alt}}">
-    
-                            <div class="action"><a class="button" >{{readmore_text}}</a></div>
-                        
